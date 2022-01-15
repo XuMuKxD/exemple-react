@@ -1,0 +1,12 @@
+.Form__box{
+    display: flex;
+}
+.Box__title{
+    display: flex;
+}
+.Box__message{
+    display: flex;
+}
+.Box__send{
+    display: flex;
+}
