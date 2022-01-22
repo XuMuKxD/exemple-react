@@ -1,12 +1,30 @@
-.Form__box{
+.Form__box {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+
+.Box__title {
     display: flex;
 }
-.Box__title{
+
+.Box__messages {
     display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: stretch;
 }
-.Box__message{
+
+.Box__send {
     display: flex;
-}
-.Box__send{
-    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    align-content: stretch;
+    justify-content: space-evenly;
+    background-color: aqua;
+    
 }
